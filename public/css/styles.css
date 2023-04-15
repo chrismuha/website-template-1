@@ -966,3 +966,29 @@ i {
 .menu {
     overflow: hidden;
 }
+
+main {
+    padding-top: 95px;
+}
+
+.title-bg-black {
+    border: 4px solid #000;
+}
+.dark-theme .title-bg-black {
+    border: 4px solid #fff;
+}
+
+
+.movetop {
+    text-align: center;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+.movetop a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: #5683ff;
+    border-radius: 0.2rem;
+    font-weight: bold;
+}
