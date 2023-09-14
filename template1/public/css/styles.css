@@ -992,3 +992,7 @@ main {
     border-radius: 0.2rem;
     font-weight: bold;
 }
+
+.navbar-brand p {
+    all: unset;
+}
