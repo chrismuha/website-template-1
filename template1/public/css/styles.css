@@ -998,5 +998,11 @@ main {
 }
 
 .navbar {
-    border: 1px solid lime !important;    
+    outline: 1px solid lime !important;  
+    background-color: black; 
 }
+
+/*HAMBURGER MENU BACKGROUND COLOR*/
+/* .nav-toggle-btn {
+    background-color: #000;
+} */
