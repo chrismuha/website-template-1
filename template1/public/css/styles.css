@@ -996,3 +996,7 @@ main {
 .navbar-brand p {
     all: unset;
 }
+
+.navbar {
+    border: 1px solid lime !important;    
+}
