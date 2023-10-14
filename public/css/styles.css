@@ -1430,3 +1430,7 @@ color: white !important;
 .body-menu-opened .navbar {
     border: 1px solid black !important;   
 }
+
+.navbar-brand p {
+    color: white;
+}
