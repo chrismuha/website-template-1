@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-/* default-primary codes */
+/* default/primary codes */
 body {
     overflow-x: hidden;
 }
@@ -95,6 +95,7 @@ padding-top: 30px;
 html {
     overflow-x: hidden !important;
 }
+
 /* theme switcher */
 input[type=checkbox] {
     -webkit-appearance: none;
@@ -151,6 +152,7 @@ body :not(.dark-theme) .text-grn
 {
     color: #198754!important;   
 }
+
 /* navbar */
 .nav-link {
     font-family: 'poppins', serif;
@@ -239,7 +241,6 @@ font-size: 12pt;
 background-color: black;
 } */
 
-
 a.nav-link {
 color: white !important;
 }
@@ -251,7 +252,6 @@ color: white !important;
 .navbar-brand p {
     color: white;
 }
-
 
 /* footer */
 footer {
@@ -810,7 +810,6 @@ transform: translateY(-13px) rotate(-45deg);
     right: 30px;    
 }
 
-
 @media(max-width: 767px)
 {
 .menu {
@@ -846,7 +845,6 @@ width: 275px;
         font-size: 24px;
     }
 }
-
 
 @media only screen and (min-width: 1080px) {
     header .img-fluid{
