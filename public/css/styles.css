@@ -72,6 +72,7 @@ main.container {
     /* background: #000; */
     padding: 7px 15px;  
 }
+
 .title-bg-black {
     position: absolute;
     text-align: left;
@@ -83,8 +84,7 @@ main.container {
     font-weight: 600 !important;
 }
 
-header
-{
+header {
 padding-top: 30px;
 }
 
@@ -145,9 +145,11 @@ body.dark-theme {
 .dark-theme .light_logo{
     display: none;
 }
+
 body:not(.dark-theme) .dark_logo{
     display: none;
 }
+
 body :not(.dark-theme) .text-grn
 {
     color: #198754!important;   
@@ -178,6 +180,7 @@ body :not(.dark-theme) .text-grn
 .navbar-brand > img {
     height: 50px;
 }
+
 nav.navbar {
     position: fixed;
     top: 0;
@@ -205,11 +208,11 @@ box-shadow: none !important;
     z-index: 140;
 }
 
-
 .navbar-brand p {
     all: unset;
     color: #0000ff;
 }
+
 .navbar-brand:hover {
     color: #0000ff;
 }
@@ -225,11 +228,13 @@ font-size: 12pt;
     width: 99.7%;
     margin: auto;
 }
+
 @media screen and (max-width: 450px) {
     .navbar {
         width: 99.7%;
     }
 }
+
 @media screen and (max-width: 1000px) {
     .menu_ {
         border-bottom: 1px solid lime;
@@ -360,6 +365,7 @@ background-color: #0b6623 !important; opacity: 1 !important; color: white !impor
 .btn:hover {
     background-color: #4db748;opacity: 1;color: white;
 }
+
 .e_mail_top {
     font-family: Arial;
     font-size: 14px;
@@ -415,21 +421,26 @@ background-color: #0b6623 !important; opacity: 1 !important; color: white !impor
             transition: all 0.3s;
     width: 0;
 }
+
 .icon-button:hover span {
     width: 40pt;
     height: 40pt;
     border-radius: 40pt;
     margin: -20pt;
 }
+
 .twitter span {
     background-color: #4099ff;
 }
+
 .facebook span {
     background-color: #3B5998;
 }
+
 .google-plus span {
     background-color: #db5a3c;
 }
+
 .linkedin span {
     background-color: #0077b5;
 }
@@ -450,18 +461,23 @@ background-color: #0b6623 !important; opacity: 1 !important; color: white !impor
     width: 40pt;
     z-index: 10;
 }
+
 .icon-button .fa-twitter {
     color: #4199ff;
 }
+
 .icon-button .fa-facebook {
     color: #3c5998;
 }
+
 .icon-button .icon-google-plus {
     color: #db5a3c;
 }
+
 .icon-button .fa-linkedin {
     color: #0077b5;
 }
+
 .icon-button:hover .fa-twitter,
 .icon-button:hover .fa-facebook,
 .icon-button:hover .fa-linkedin,
@@ -749,8 +765,7 @@ transform: translateY(-13px) rotate(-45deg);
     font-size: 31px;    
 }
 
-@media(min-width: 1400px)
-{
+@media(min-width: 1400px) {
 .menu-main > ul > li {
     font-size: 36px;    
 }
@@ -766,16 +781,16 @@ transform: translateY(-13px) rotate(-45deg);
 .menu-main a:hover {
     color: #edc137;
 } */
-/* 
-.menu-main a:after {
+
+/* .menu-main a:after {
     content: ".";
     opacity: 0;
     display: inline-block;
     transform: translate(24pt,0);
     transition: all .3s ease-in-out;
 } */
-/* 
-.menu-main .active a:after {
+
+/* .menu-main .active a:after {
     transform: translate(0,0);
     opacity: 1;
 } */
@@ -851,10 +866,10 @@ width: 275px;
         max-width: 580px;
         margin-top: 50px;
     }
+    
     div.banner .img-fluid{
         max-width: 580px;
     }
-
 }
 
 .nav-item a {
@@ -980,10 +995,10 @@ i {
     }
 }
 
-/* 
-.title-bg-black {
+/* .title-bg-black {
     border: 4px solid black;
 }
+
 .dark-theme .title-bg-black {
     border: 4px solid white;
 } */
@@ -1020,20 +1035,24 @@ i {
         width: 90%;
     }
 }
+
 .menu-table-header h4 {
     background-color: red;
     padding: 6pt;
     border-radius: 6pt 6pt 0 0;
     text-align: center;
 }
+
 .menu-table p {
     margin: 6pt;
     font-size: 14px;
 }
+
 .menu-table .services {
     display: flex;
     flex-direction: column;
 }
+
 .menu-table .services a {
     font-size: 16px;
     text-decoration: none;
@@ -1042,22 +1061,28 @@ i {
     margin: 6pt;
     transition: 0.2s;
 }
+
 .menu-table .services p,
 .menu-table .services a {
     margin-top: 24pt;
 }
+
 .menu-table .last-child p:last-child {
     margin-bottom: 24pt;
 }
+
 .dark-theme .menu-table .services a {
     color: white;
 }
+
 .menu-table .services a:hover {
     opacity: 80%;
 }
+
 .menu-table .services p {
     font-size: 14px;
 }
+
 .dark-theme .menu-table-header {
     border: white 1px solid;
 }
@@ -1066,11 +1091,11 @@ i {
     .menu-table {
         display: flex;
     }
+    
     .menu-table-header {
         width: 100% !important;
     }
 }
-
 
 /* .nav-mob {
     display: none; 
@@ -1088,6 +1113,7 @@ i {
 .navbar>.container-fluid {
     justify-content: space-evenly;    
 }
+
 /* 
 .swiper, swiper-container {
     max-width: 360.01pt;   
