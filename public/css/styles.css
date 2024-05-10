@@ -1114,8 +1114,7 @@ i {
     justify-content: space-evenly;    
 }
 
-/* 
-.swiper, swiper-container {
+/* .swiper, swiper-container {
     max-width: 360.01pt;   
 } */
 
@@ -1250,18 +1249,22 @@ font-size: 18px;
 .review-slider .swiper-slide {
     padding: 0 60pt;
     text-align: left;
-} 
+}
+
 .review-slider img {
     width: 90%;
 }
+
 .review-slider > p{
     font-size: 22px;
     text-align: center;
     font-weight: 600;
 }
+
 .review-slider i {
     color: orange;
 }
+
 .button-google-review {
     display: flex;
     justify-content: space-between;
@@ -1272,13 +1275,16 @@ font-size: 18px;
     background-color: white;
     border-radius: 12pt;
 }
+
 .button-google-review img {
     width: 50%;
 }
+
 .button-google-review a {
     background-color: #ff6153;
     margin: 12pt 0;
 }
+
 .button-google-review a:hover {
     background-color: #ff5344 !important;
 }
@@ -1294,6 +1300,7 @@ font-size: 18px;
         padding: 0 48pt;
     }
 }
+
 .review-slider {
     margin-bottom: 24pt;
 }
@@ -1303,6 +1310,7 @@ font-size: 18px;
     text-align: center;
     margin: 12pt;
 }
+
 .movetop a {
     text-decoration: none;
     color: white;
@@ -1347,6 +1355,7 @@ font-size: 18px;
     align-items: flex-start;
     position: relative;
 }
+
 .page-banner img {
     height: auto;
     width: 100vw;
