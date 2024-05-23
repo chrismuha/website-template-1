@@ -924,7 +924,6 @@ width: 275px;
 }
 
 /*italicized texts changes here*/
-
 i {
     font-style: normal;
     text-transform: uppercase !important;
@@ -932,7 +931,6 @@ i {
 }
 
 /*padding/margin corrector for vCard*/
-
 .e_mail {
     margin-bottom: 50px;
 }
@@ -943,7 +941,6 @@ i {
 }
 
 /* loading screen */
-
 #preloader {
     background: #fff no-repeat center center;
     z-index: 11100;
@@ -976,7 +973,6 @@ i {
         animation: normal !important;
         text-decoration: none;
     }
-
 
     .menu-main > ul > li a:hover:after {
         width: 0%;
@@ -1173,7 +1169,6 @@ i {
     margin-top: 12pt;
 }
 
-
 .menu-table
 {
     max-width: 480.01pt;
@@ -1213,7 +1208,6 @@ font-size: 18px;
 .rev-slider .swiper-button-prev, .rev-slider .swiper-button-next {
     color: #f0b654;
 }
-
 
 .menu-table {
     margin: 0 auto;
