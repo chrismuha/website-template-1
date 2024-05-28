@@ -825,22 +825,18 @@ transform: translateY(-13px) rotate(-45deg);
     right: 30px;    
 }
 
-@media(max-width: 767px)
-{
+@media(max-width: 767px) {
 .menu {
     padding:  63pt 4.5pt 50.25pt;
 }
 
-.menu
-{
+.menu {
 width: 275px;    
 }
 
-.menu-main > ul > li
-{
+.menu-main > ul > li {
     margin: 0;
 }
-
 }
 
 @media only screen and (max-width: 400px) {
